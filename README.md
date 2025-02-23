@@ -12,3 +12,4 @@ Home Lab Automatization
 	- Script para inicializar contenedores, entre ellos freqtrade y que se actualice o configure del repositorio.
 
 - Plantear una infra CI/CD con kubernetes
+- Que funcione el bot
