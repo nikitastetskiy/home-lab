@@ -31,7 +31,7 @@ for o in "${SLCT[@]}"; do
             echo "Configuring Disks and fstab..."
             bash scripts_modules/disks.sh
             ;;   
-	2)
+        2)
             echo "Installing Docker..."
             bash scripts_modules/install_docker.sh
             ;;
@@ -47,7 +47,7 @@ for o in "${SLCT[@]}"; do
             echo "Configuring SSH access..."
             bash scripts_modules/access_ssh.sh
             ;;
-	6)
+        6)
             echo "Configuring Containers..."
             bash scripts_modules/containers.sh
             ;;
